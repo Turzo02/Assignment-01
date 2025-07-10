@@ -199,9 +199,42 @@ header {
   border: none;
   border-radius: 10px;
   font-size: 1.1em;
-  border: 1px solid rgba(0, 0, 0, 0.158);
+  border: 1px solid rgba(168, 168, 168, 0.336);
 }
 
 .submit-button {
   width: 100%;
+}
+
+footer {
+  background-color: #fff;
+}
+.footerbox {
+  text-align: center;
+  width: 750px;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+footer h1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  color: #4e47ff;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6.5em;
+}
+
+footer p,
+a {
+  font-size: 1.4em;
+  margin: 16px auto;
+  color: rgba(37, 36, 50, 0.603);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px 15px;
 }
