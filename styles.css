@@ -16,25 +16,23 @@ header {
 /* Universal button style used across the entire site */
 .btn {
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
   color: white;
-  padding: 15px 32px;
   background-color: #4e47ff;
+  padding: 15px 32px;
   border-radius: 10px;
   border: none;
   transition: all 0.4s ease;
   cursor: pointer;
 
-  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 600;
 }
 
 .btn:hover {
   background-color: crimson;
-  transform: scale(1.05);
+  transform: translateY(-5px) scale(1.05);
   box-shadow: 5px 5px 10px rgba(220, 20, 60, 0.25);
-  transform: translateY(-5px);
 }
 
 .navbar {
@@ -49,8 +47,7 @@ header {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   color: #4e47ff;
-  font-style: normal;
-  font-weight: 800;
+  font-weight: 900;
   font-size: 2em;
 }
 
@@ -140,7 +137,6 @@ header {
 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-style: normal;
   font-weight: 800;
 }
 
@@ -220,14 +216,13 @@ footer h1 {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   color: #4e47ff;
-  font-style: normal;
   font-weight: 800;
-  font-size: 6.5em;
+  font-size: 6.2em;
 }
 
 footer p,
 a {
-  font-size: 1.4em;
+  font-size: 1.1em;
   margin: 16px auto;
   color: rgba(37, 36, 50, 0.603);
   font-family: "Raleway", sans-serif;
@@ -255,7 +250,7 @@ a {
   font-size: 2.5em;
   margin: 20px;
   color: #252432;
-  
+
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -273,11 +268,11 @@ a {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.051);
 }
 .card h1 {
- margin:0;
+  margin: 0;
   font-size: 1.2em;
 }
 .card p {
-  font-size: .8em;
+  font-size: 0.8em;
   margin: 16px auto;
   color: rgba(37, 36, 50, 0.603);
   font-family: "Raleway", sans-serif;
